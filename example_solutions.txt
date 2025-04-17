@@ -1,0 +1,193 @@
+TRIAL 0
+INPUT: [(datetime.date(2024, 3, 2), datetime.date(2024, 6, 8), 3), (datetime.date(2024, 3, 15), datetime.date(2024, 12, 21), 0), (datetime.date(2024, 4, 27), datetime.date(2024, 6, 19), 6), (datetime.date(2024, 6, 16), datetime.date(2024, 9, 10), 7), (datetime.date(2024, 6, 30), datetime.date(2024, 8, 11), 1), (datetime.date(2024, 7, 29), datetime.date(2024, 9, 25), 5), (datetime.date(2024, 9, 10), datetime.date(2024, 11, 8), 4), (datetime.date(2024, 11, 16), datetime.date(2024, 12, 26), 2)]
+SOLUTION:
+size: 1 
+length: 281 days 
+overlap: (datetime.date(2024, 3, 15), datetime.date(2024, 12, 21)) 
+members: [(datetime.date(2024, 3, 15), datetime.date(2024, 12, 21), 0)]
+
+size: 2 
+length: 86 days 
+overlap: (datetime.date(2024, 6, 16), datetime.date(2024, 9, 10)) 
+members: [(datetime.date(2024, 3, 15), datetime.date(2024, 12, 21), 0), (datetime.date(2024, 6, 16), datetime.date(2024, 9, 10), 7)]
+
+size: 3 
+length: 43 days 
+overlap: (datetime.date(2024, 7, 29), datetime.date(2024, 9, 10)) 
+members: [(datetime.date(2024, 3, 15), datetime.date(2024, 12, 21), 0), (datetime.date(2024, 6, 16), datetime.date(2024, 9, 10), 7), (datetime.date(2024, 7, 29), datetime.date(2024, 9, 25), 5)]
+
+TRIAL 1
+INPUT: [(datetime.date(2024, 1, 18), datetime.date(2024, 6, 30), 7), (datetime.date(2024, 6, 1), datetime.date(2024, 8, 27), 3), (datetime.date(2024, 6, 12), datetime.date(2024, 8, 23), 4), (datetime.date(2024, 6, 28), datetime.date(2024, 12, 24), 6), (datetime.date(2024, 8, 4), datetime.date(2024, 11, 15), 0), (datetime.date(2024, 8, 6), datetime.date(2024, 10, 8), 5), (datetime.date(2024, 9, 29), datetime.date(2024, 11, 28), 2), (datetime.date(2024, 11, 19), datetime.date(2024, 12, 25), 1)]
+SOLUTION:
+size: 1 
+length: 179 days 
+overlap: (datetime.date(2024, 6, 28), datetime.date(2024, 12, 24)) 
+members: [(datetime.date(2024, 6, 28), datetime.date(2024, 12, 24), 6)]
+
+size: 2 
+length: 103 days 
+overlap: (datetime.date(2024, 8, 4), datetime.date(2024, 11, 15)) 
+members: [(datetime.date(2024, 6, 28), datetime.date(2024, 12, 24), 6), (datetime.date(2024, 8, 4), datetime.date(2024, 11, 15), 0)]
+
+size: 3 
+length: 63 days 
+overlap: (datetime.date(2024, 8, 6), datetime.date(2024, 10, 8)) 
+members: [(datetime.date(2024, 6, 28), datetime.date(2024, 12, 24), 6), (datetime.date(2024, 8, 4), datetime.date(2024, 11, 15), 0), (datetime.date(2024, 8, 6), datetime.date(2024, 10, 8), 5)]
+
+TRIAL 2
+INPUT: [(datetime.date(2024, 2, 5), datetime.date(2024, 5, 7), 6), (datetime.date(2024, 2, 16), datetime.date(2024, 9, 20), 5), (datetime.date(2024, 2, 19), datetime.date(2024, 11, 23), 4), (datetime.date(2024, 4, 8), datetime.date(2024, 7, 4), 3), (datetime.date(2024, 4, 25), datetime.date(2024, 9, 6), 1), (datetime.date(2024, 4, 29), datetime.date(2024, 7, 13), 2), (datetime.date(2024, 5, 25), datetime.date(2024, 11, 28), 0), (datetime.date(2024, 5, 26), datetime.date(2024, 12, 13), 7)]
+SOLUTION:
+size: 1 
+length: 278 days 
+overlap: (datetime.date(2024, 2, 19), datetime.date(2024, 11, 23)) 
+members: [(datetime.date(2024, 2, 19), datetime.date(2024, 11, 23), 4)]
+
+size: 2 
+length: 214 days 
+overlap: (datetime.date(2024, 2, 19), datetime.date(2024, 9, 20)) 
+members: [(datetime.date(2024, 2, 16), datetime.date(2024, 9, 20), 5), (datetime.date(2024, 2, 19), datetime.date(2024, 11, 23), 4)]
+
+size: 3 
+length: 181 days 
+overlap: (datetime.date(2024, 5, 26), datetime.date(2024, 11, 23)) 
+members: [(datetime.date(2024, 2, 19), datetime.date(2024, 11, 23), 4), (datetime.date(2024, 5, 25), datetime.date(2024, 11, 28), 0), (datetime.date(2024, 5, 26), datetime.date(2024, 12, 13), 7)]
+
+size: 4 
+length: 117 days 
+overlap: (datetime.date(2024, 5, 26), datetime.date(2024, 9, 20)) 
+members: [(datetime.date(2024, 2, 16), datetime.date(2024, 9, 20), 5), (datetime.date(2024, 2, 19), datetime.date(2024, 11, 23), 4), (datetime.date(2024, 5, 25), datetime.date(2024, 11, 28), 0), (datetime.date(2024, 5, 26), datetime.date(2024, 12, 13), 7)]
+
+size: 5 
+length: 103 days 
+overlap: (datetime.date(2024, 5, 26), datetime.date(2024, 9, 6)) 
+members: [(datetime.date(2024, 2, 16), datetime.date(2024, 9, 20), 5), (datetime.date(2024, 2, 19), datetime.date(2024, 11, 23), 4), (datetime.date(2024, 4, 25), datetime.date(2024, 9, 6), 1), (datetime.date(2024, 5, 25), datetime.date(2024, 11, 28), 0), (datetime.date(2024, 5, 26), datetime.date(2024, 12, 13), 7)]
+
+size: 6 
+length: 48 days 
+overlap: (datetime.date(2024, 5, 26), datetime.date(2024, 7, 13)) 
+members: [(datetime.date(2024, 2, 16), datetime.date(2024, 9, 20), 5), (datetime.date(2024, 2, 19), datetime.date(2024, 11, 23), 4), (datetime.date(2024, 4, 25), datetime.date(2024, 9, 6), 1), (datetime.date(2024, 4, 29), datetime.date(2024, 7, 13), 2), (datetime.date(2024, 5, 25), datetime.date(2024, 11, 28), 0), (datetime.date(2024, 5, 26), datetime.date(2024, 12, 13), 7)]
+
+size: 7 
+length: 39 days 
+overlap: (datetime.date(2024, 5, 26), datetime.date(2024, 7, 4)) 
+members: [(datetime.date(2024, 2, 16), datetime.date(2024, 9, 20), 5), (datetime.date(2024, 2, 19), datetime.date(2024, 11, 23), 4), (datetime.date(2024, 4, 8), datetime.date(2024, 7, 4), 3), (datetime.date(2024, 4, 25), datetime.date(2024, 9, 6), 1), (datetime.date(2024, 4, 29), datetime.date(2024, 7, 13), 2), (datetime.date(2024, 5, 25), datetime.date(2024, 11, 28), 0), (datetime.date(2024, 5, 26), datetime.date(2024, 12, 13), 7)]
+
+TRIAL 3
+INPUT: [(datetime.date(2024, 3, 13), datetime.date(2024, 12, 18), 1), (datetime.date(2024, 4, 3), datetime.date(2024, 10, 6), 5), (datetime.date(2024, 4, 24), datetime.date(2024, 9, 24), 4), (datetime.date(2024, 5, 21), datetime.date(2024, 12, 24), 7), (datetime.date(2024, 8, 22), datetime.date(2024, 10, 7), 3), (datetime.date(2024, 9, 2), datetime.date(2024, 10, 17), 0), (datetime.date(2024, 10, 21), datetime.date(2024, 12, 11), 6), (datetime.date(2024, 10, 25), datetime.date(2024, 12, 10), 2)]
+SOLUTION:
+size: 1 
+length: 280 days 
+overlap: (datetime.date(2024, 3, 13), datetime.date(2024, 12, 18)) 
+members: [(datetime.date(2024, 3, 13), datetime.date(2024, 12, 18), 1)]
+
+size: 2 
+length: 211 days 
+overlap: (datetime.date(2024, 5, 21), datetime.date(2024, 12, 18)) 
+members: [(datetime.date(2024, 3, 13), datetime.date(2024, 12, 18), 1), (datetime.date(2024, 5, 21), datetime.date(2024, 12, 24), 7)]
+
+size: 3 
+length: 153 days 
+overlap: (datetime.date(2024, 4, 24), datetime.date(2024, 9, 24)) 
+members: [(datetime.date(2024, 3, 13), datetime.date(2024, 12, 18), 1), (datetime.date(2024, 4, 3), datetime.date(2024, 10, 6), 5), (datetime.date(2024, 4, 24), datetime.date(2024, 9, 24), 4)]
+
+size: 4 
+length: 126 days 
+overlap: (datetime.date(2024, 5, 21), datetime.date(2024, 9, 24)) 
+members: [(datetime.date(2024, 3, 13), datetime.date(2024, 12, 18), 1), (datetime.date(2024, 4, 3), datetime.date(2024, 10, 6), 5), (datetime.date(2024, 4, 24), datetime.date(2024, 9, 24), 4), (datetime.date(2024, 5, 21), datetime.date(2024, 12, 24), 7)]
+
+size: 5 
+length: 34 days 
+overlap: (datetime.date(2024, 9, 2), datetime.date(2024, 10, 6)) 
+members: [(datetime.date(2024, 3, 13), datetime.date(2024, 12, 18), 1), (datetime.date(2024, 4, 3), datetime.date(2024, 10, 6), 5), (datetime.date(2024, 5, 21), datetime.date(2024, 12, 24), 7), (datetime.date(2024, 8, 22), datetime.date(2024, 10, 7), 3), (datetime.date(2024, 9, 2), datetime.date(2024, 10, 17), 0)]
+
+TRIAL 4
+INPUT: [(datetime.date(2024, 1, 11), datetime.date(2024, 3, 28), 1), (datetime.date(2024, 1, 29), datetime.date(2024, 12, 2), 7), (datetime.date(2024, 2, 24), datetime.date(2024, 12, 29), 4), (datetime.date(2024, 2, 29), datetime.date(2024, 11, 26), 2), (datetime.date(2024, 5, 1), datetime.date(2024, 7, 19), 3), (datetime.date(2024, 8, 21), datetime.date(2024, 10, 17), 5), (datetime.date(2024, 8, 26), datetime.date(2024, 10, 23), 0), (datetime.date(2024, 10, 6), datetime.date(2024, 11, 29), 6)]
+SOLUTION:
+size: 1 
+length: 309 days 
+overlap: (datetime.date(2024, 2, 24), datetime.date(2024, 12, 29)) 
+members: [(datetime.date(2024, 2, 24), datetime.date(2024, 12, 29), 4)]
+
+size: 2 
+length: 282 days 
+overlap: (datetime.date(2024, 2, 24), datetime.date(2024, 12, 2)) 
+members: [(datetime.date(2024, 1, 29), datetime.date(2024, 12, 2), 7), (datetime.date(2024, 2, 24), datetime.date(2024, 12, 29), 4)]
+
+size: 3 
+length: 271 days 
+overlap: (datetime.date(2024, 2, 29), datetime.date(2024, 11, 26)) 
+members: [(datetime.date(2024, 1, 29), datetime.date(2024, 12, 2), 7), (datetime.date(2024, 2, 24), datetime.date(2024, 12, 29), 4), (datetime.date(2024, 2, 29), datetime.date(2024, 11, 26), 2)]
+
+size: 4 
+length: 79 days 
+overlap: (datetime.date(2024, 5, 1), datetime.date(2024, 7, 19)) 
+members: [(datetime.date(2024, 1, 29), datetime.date(2024, 12, 2), 7), (datetime.date(2024, 2, 24), datetime.date(2024, 12, 29), 4), (datetime.date(2024, 2, 29), datetime.date(2024, 11, 26), 2), (datetime.date(2024, 5, 1), datetime.date(2024, 7, 19), 3)]
+
+size: 5 
+length: 52 days 
+overlap: (datetime.date(2024, 8, 26), datetime.date(2024, 10, 17)) 
+members: [(datetime.date(2024, 1, 29), datetime.date(2024, 12, 2), 7), (datetime.date(2024, 2, 24), datetime.date(2024, 12, 29), 4), (datetime.date(2024, 2, 29), datetime.date(2024, 11, 26), 2), (datetime.date(2024, 8, 21), datetime.date(2024, 10, 17), 5), (datetime.date(2024, 8, 26), datetime.date(2024, 10, 23), 0)]
+
+TRIAL 5
+INPUT: [(datetime.date(2024, 3, 27), datetime.date(2024, 5, 20), 6), (datetime.date(2024, 4, 23), datetime.date(2024, 9, 12), 4), (datetime.date(2024, 7, 23), datetime.date(2024, 10, 16), 1), (datetime.date(2024, 7, 29), datetime.date(2024, 12, 15), 2), (datetime.date(2024, 8, 23), datetime.date(2024, 10, 29), 3), (datetime.date(2024, 10, 12), datetime.date(2024, 12, 12), 7), (datetime.date(2024, 11, 24), datetime.date(2024, 12, 31), 5), (datetime.date(2024, 11, 28), datetime.date(2025, 1, 1), 0)]
+SOLUTION:
+size: 1 
+length: 142 days 
+overlap: (datetime.date(2024, 4, 23), datetime.date(2024, 9, 12)) 
+members: [(datetime.date(2024, 4, 23), datetime.date(2024, 9, 12), 4)]
+
+size: 2 
+length: 79 days 
+overlap: (datetime.date(2024, 7, 29), datetime.date(2024, 10, 16)) 
+members: [(datetime.date(2024, 7, 23), datetime.date(2024, 10, 16), 1), (datetime.date(2024, 7, 29), datetime.date(2024, 12, 15), 2)]
+
+size: 3 
+length: 54 days 
+overlap: (datetime.date(2024, 8, 23), datetime.date(2024, 10, 16)) 
+members: [(datetime.date(2024, 7, 23), datetime.date(2024, 10, 16), 1), (datetime.date(2024, 7, 29), datetime.date(2024, 12, 15), 2), (datetime.date(2024, 8, 23), datetime.date(2024, 10, 29), 3)]
+
+TRIAL 6
+INPUT: [(datetime.date(2024, 1, 22), datetime.date(2024, 8, 19), 2), (datetime.date(2024, 4, 20), datetime.date(2024, 8, 4), 5), (datetime.date(2024, 4, 22), datetime.date(2024, 12, 7), 7), (datetime.date(2024, 6, 1), datetime.date(2024, 7, 19), 3), (datetime.date(2024, 6, 14), datetime.date(2024, 10, 17), 6), (datetime.date(2024, 7, 17), datetime.date(2024, 9, 12), 4), (datetime.date(2024, 8, 7), datetime.date(2024, 11, 29), 0), (datetime.date(2024, 8, 22), datetime.date(2024, 12, 10), 1)]
+SOLUTION:
+size: 1 
+length: 229 days 
+overlap: (datetime.date(2024, 4, 22), datetime.date(2024, 12, 7)) 
+members: [(datetime.date(2024, 4, 22), datetime.date(2024, 12, 7), 7)]
+
+size: 2 
+length: 125 days 
+overlap: (datetime.date(2024, 6, 14), datetime.date(2024, 10, 17)) 
+members: [(datetime.date(2024, 4, 22), datetime.date(2024, 12, 7), 7), (datetime.date(2024, 6, 14), datetime.date(2024, 10, 17), 6)]
+
+size: 3 
+length: 104 days 
+overlap: (datetime.date(2024, 4, 22), datetime.date(2024, 8, 4)) 
+members: [(datetime.date(2024, 1, 22), datetime.date(2024, 8, 19), 2), (datetime.date(2024, 4, 20), datetime.date(2024, 8, 4), 5), (datetime.date(2024, 4, 22), datetime.date(2024, 12, 7), 7)]
+
+size: 4 
+length: 56 days 
+overlap: (datetime.date(2024, 8, 22), datetime.date(2024, 10, 17)) 
+members: [(datetime.date(2024, 4, 22), datetime.date(2024, 12, 7), 7), (datetime.date(2024, 6, 14), datetime.date(2024, 10, 17), 6), (datetime.date(2024, 8, 7), datetime.date(2024, 11, 29), 0), (datetime.date(2024, 8, 22), datetime.date(2024, 12, 10), 1)]
+
+size: 5 
+length: 35 days 
+overlap: (datetime.date(2024, 6, 14), datetime.date(2024, 7, 19)) 
+members: [(datetime.date(2024, 1, 22), datetime.date(2024, 8, 19), 2), (datetime.date(2024, 4, 20), datetime.date(2024, 8, 4), 5), (datetime.date(2024, 4, 22), datetime.date(2024, 12, 7), 7), (datetime.date(2024, 6, 1), datetime.date(2024, 7, 19), 3), (datetime.date(2024, 6, 14), datetime.date(2024, 10, 17), 6)]
+
+TRIAL 7
+INPUT: [(datetime.date(2024, 1, 18), datetime.date(2024, 5, 19), 0), (datetime.date(2024, 2, 6), datetime.date(2024, 9, 5), 6), (datetime.date(2024, 3, 27), datetime.date(2024, 11, 29), 3), (datetime.date(2024, 5, 7), datetime.date(2024, 6, 18), 5), (datetime.date(2024, 9, 23), datetime.date(2024, 11, 10), 2), (datetime.date(2024, 10, 15), datetime.date(2024, 12, 18), 7), (datetime.date(2024, 11, 11), datetime.date(2024, 12, 29), 1), (datetime.date(2024, 11, 14), datetime.date(2024, 12, 24), 4)]
+SOLUTION:
+size: 1 
+length: 247 days 
+overlap: (datetime.date(2024, 3, 27), datetime.date(2024, 11, 29)) 
+members: [(datetime.date(2024, 3, 27), datetime.date(2024, 11, 29), 3)]
+
+size: 2 
+length: 162 days 
+overlap: (datetime.date(2024, 3, 27), datetime.date(2024, 9, 5)) 
+members: [(datetime.date(2024, 2, 6), datetime.date(2024, 9, 5), 6), (datetime.date(2024, 3, 27), datetime.date(2024, 11, 29), 3)]
+
+size: 3 
+length: 53 days 
+overlap: (datetime.date(2024, 3, 27), datetime.date(2024, 5, 19)) 
+members: [(datetime.date(2024, 1, 18), datetime.date(2024, 5, 19), 0), (datetime.date(2024, 2, 6), datetime.date(2024, 9, 5), 6), (datetime.date(2024, 3, 27), datetime.date(2024, 11, 29), 3)]
