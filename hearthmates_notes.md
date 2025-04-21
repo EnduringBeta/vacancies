@@ -39,23 +39,25 @@ Goal: "calculate these vacancy bundles" !!!
 
 ## Visual
 
+```
  	 		========	;
 ========				;
 ============			;
 		============	;
 	============		;
 ====			====	;
+```
 
 # Results
 
-Trial 0 - extra N=4 of 13 days
-Trial 1 - extra N=4,5 of 21, 17 days
-Trial 2 - different N=3,4
-Trial 3 - different N=3, extra N=6 of 22 days
-Trial 4 - missing N=5 of 52 days
-Trial 5 - extra N=4 of 20 days
-Trial 6 - different N=3,5
-Trial 7 - extra N=4
+* Trial 0 - extra N=4 of 13 days
+* Trial 1 - extra N=4,5 of 21, 17 days
+* Trial 2 - different N=3,4
+* Trial 3 - different N=3, extra N=6 of 22 days
+* Trial 4 - missing N=5 of 52 days
+* Trial 5 - extra N=4 of 20 days
+* Trial 6 - different N=3,5
+* Trial 7 - extra N=4
 
 # Big O
 
@@ -64,6 +66,15 @@ n * ((n) + n*(3n/2) + n*(#)) -> n^2 * (1 + 3n/2 + #) -> n^3
 # Questions
 
 * Travellers usually have firm dates in mind, so max hostel occupancy time for N beds doesn't quite match their expectations?
+
+# Conclusion & Learnings
+
+* Rejection!
+* This was a "[knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem)"
+* A core mistake was assuming that the longest N bundle MUST be based on an N-1 bundle; this is apparently not true!
+    * I'd love to generate an example that shows this clearly
+* Imagine a graph of all vacancy bundles minus those culled; you can still build upon prior work for efficiency
+* Vacancy storage and comparisons could have been done with a hashmap
 
 # Form & Instructions
 
